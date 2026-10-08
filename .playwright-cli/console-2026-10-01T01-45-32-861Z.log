@@ -1,0 +1,11 @@
+[      75ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:8080/opencart/upload/index.php?route=account/login&language=en-gb:0
+[    7217ms] [LOG] ce.Event @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:298
+[    7217ms] [LOG] element [object HTMLFormElement] @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:299
+[    7217ms] [LOG] action http://localhost:8080/opencart/upload/index.php?route=account/login.login&language=en-gb&login_token=31a860e6d4bbb9a68b0a129ec9 @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:300
+[    7217ms] [LOG] button [object HTMLButtonElement] @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:301
+[    7217ms] [LOG] formaction undefined @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:302
+[    7217ms] [LOG] method post @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:303
+[    7217ms] [LOG] enctype application/x-www-form-urlencoded @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:304
+[    7217ms] [LOG] email=pavnol%40xyz.com&password=test123&redirect=http%3A%2F%2Flocalhost%3A8080%2Fopencart%2Fupload%2Findex.php%3Froute%3Daccount%2Faccount%26language%3Den-gb @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:305
+[    7476ms] [LOG] {redirect: http://localhost:8080/opencart/upload/index.php?ro…e=en-gb&customer_token=7844fa83f2f633201232c52576} @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:327
+[    7476ms] [LOG] success @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:328

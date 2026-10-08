@@ -1,0 +1,27 @@
+- generic [ref=f1e2]:
+  - banner [ref=f1e4]:
+    - link [ref=f1e6] [cursor=pointer]:
+      - /url: http://localhost:8080/opencart/upload/admin/index.php?route=common/login
+      - img "OpenCart" [ref=f1e7]
+  - generic [ref=f1e12]:
+    - generic [ref=f1e13]:
+      - generic [ref=f1e14]: 
+      - text: Please enter your login details.
+    - generic [ref=f1e16]:
+      - generic [ref=f1e17]:
+        - generic [ref=f1e18]: Username
+        - generic [ref=f1e19]:
+          - generic [ref=f1e20]: 
+          - textbox "Username" [ref=f1e22]
+      - generic [ref=f1e23]:
+        - generic [ref=f1e24]: Password
+        - generic [ref=f1e25]:
+          - generic [ref=f1e26]: 
+          - textbox "Password" [ref=f1e28]
+      - button " Login" [ref=f1e30] [cursor=pointer]:
+        - generic [ref=f1e31]: 
+        - text: Login
+  - contentinfo [ref=f1e32]:
+    - link "OpenCart" [ref=f1e33] [cursor=pointer]:
+      - /url: https://www.opencart.com
+    - text: © 2009-2026 All Rights Reserved.

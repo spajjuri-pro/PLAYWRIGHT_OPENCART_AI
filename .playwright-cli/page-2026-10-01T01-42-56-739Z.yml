@@ -1,0 +1,117 @@
+- generic [active] [ref=f8e1]:
+  - text: "Unknown: Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0 in /Users/spajjuri/Sites/opencart/upload/install/controller/install/promotion.php on line 30"
+  - generic [ref=f8e2]:
+    - banner [ref=f8e3]:
+      - link [ref=f8e5] [cursor=pointer]:
+        - /url: ""
+        - img "OpenCart" [ref=f8e6]
+    - generic [ref=f8e7]:
+      - heading "Installation complete" [level=1] [ref=f8e10]
+      - generic [ref=f8e11]:
+        - generic [ref=f8e12]:
+          - generic [ref=f8e13]: 
+          - text: Don't forget to delete your installation directory!
+        - generic [ref=f8e14]:
+          - generic [ref=f8e15]:
+            - generic [ref=f8e16]: 
+            - text: Ready to start selling!
+          - generic [ref=f8e17]:
+            - generic [ref=f8e18]:
+              - generic [ref=f8e19]:
+                - link [ref=f8e20] [cursor=pointer]:
+                  - /url: ../
+                  - img "OpenCart" [ref=f8e21]
+                - link "Go to your Online Shop" [ref=f8e22] [cursor=pointer]:
+                  - /url: ../
+              - generic [ref=f8e23]:
+                - link [ref=f8e24] [cursor=pointer]:
+                  - /url: ../admin/
+                  - img "OpenCart" [ref=f8e25]
+                - link "Login to your Administration" [ref=f8e26] [cursor=pointer]:
+                  - /url: ../admin/
+            - generic [ref=f8e28]:
+              - heading "Featured" [level=3] [ref=f8e29]
+              - generic [ref=f8e30]:
+                - generic [ref=f8e32]:
+                  - link "Installing the Facebook Business Extension Refer to our simplified installation guide for the steps to install the extension on your OpenCart store. Refer to our detailed installation guide for more details. Frequently asked quest.. Facebook for OpenCart" [ref=f8e34] [cursor=pointer]:
+                    - /url: https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=32336
+                    - generic [ref=f8e35]: Installing the Facebook Business Extension Refer to our simplified installation guide for the steps to install the extension on your OpenCart store. Refer to our detailed installation guide for more details. Frequently asked quest..
+                    - img "Facebook for OpenCart" [ref=f8e36]
+                  - generic [ref=f8e37]:
+                    - paragraph [ref=f8e38]:
+                      - link "Facebook for OpenCart" [ref=f8e39] [cursor=pointer]:
+                        - /url: https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=32336
+                    - paragraph [ref=f8e40]: FREE
+                  - generic [ref=f8e41]: 31 reviews
+                - generic [ref=f8e46]:
+                  - link "Help drive conversion. With 400M+ active accounts¹ and global recognition, PayPal helps you reach more customers and boost sales. 46% higher checkout conversion with PayPal.² Power AOV with Pay Later. Offer Pay Later t.. PayPal Checkout Integration" [ref=f8e48] [cursor=pointer]:
+                    - /url: https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=38358
+                    - generic [ref=f8e49]: Help drive conversion. With 400M+ active accounts¹ and global recognition, PayPal helps you reach more customers and boost sales. 46% higher checkout conversion with PayPal.² Power AOV with Pay Later. Offer Pay Later t..
+                    - img "PayPal Checkout Integration" [ref=f8e50]
+                  - generic [ref=f8e51]:
+                    - paragraph [ref=f8e52]:
+                      - link "PayPal Checkout Integration" [ref=f8e53] [cursor=pointer]:
+                        - /url: https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=38358
+                    - paragraph [ref=f8e54]: FREE
+                  - generic [ref=f8e55]: 44 reviews
+                - generic [ref=f8e60]:
+                  - 'link "InventorySync REST API Selling in more than one place is what breaks your stock counts. A marketplace buyer takes the last one while another order is still on the packing bench, the shop sells one more, and OpenCart still says three. The over.. InventorySync: one click to list and sell on mor.." [ref=f8e62] [cursor=pointer]':
+                    - /url: https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=49295
+                    - generic [ref=f8e63]: InventorySync REST API Selling in more than one place is what breaks your stock counts. A marketplace buyer takes the last one while another order is still on the packing bench, the shop sells one more, and OpenCart still says three. The over..
+                    - 'img "InventorySync: one click to list and sell on mor.." [ref=f8e64]'
+                  - generic [ref=f8e65]:
+                    - paragraph [ref=f8e66]:
+                      - 'link "InventorySync: one click to list and sell on mor.." [ref=f8e67] [cursor=pointer]':
+                        - /url: https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=49295
+                    - paragraph [ref=f8e68]: FREE
+                  - generic [ref=f8e69]: 0 reviews
+            - link "Visit the extensions store" [ref=f8e74] [cursor=pointer]:
+              - /url: https://www.opencart.com/index.php?route=marketplace/extension&utm_source=opencart_install&utm_medium=store_link&utm_campaign=opencart_install
+            - group " Join the mailing list" [ref=f8e75]:
+              - generic [ref=f8e76]:
+                - generic [ref=f8e77]: 
+                - text: Join the mailing list
+              - generic [ref=f8e78]:
+                - paragraph [ref=f8e79]: Stay informed of OpenCart updates and events.
+                - link " Join here" [ref=f8e80] [cursor=pointer]:
+                  - /url: http://newsletter.opencart.com/h/r/B660EBBE4980C85C
+                  - generic [ref=f8e81]: 
+                  - text: Join here
+            - generic [ref=f8e82]:
+              - generic [ref=f8e83]:
+                - heading [level=3] [ref=f8e84]:
+                  - link "" [ref=f8e85] [cursor=pointer]:
+                    - /url: https://www.facebook.com/opencart/
+                  - text: Like us on Facebook
+                - paragraph [ref=f8e87]: Tell us how much you like OpenCart!
+                - link "Visit our Facebook page" [ref=f8e88] [cursor=pointer]:
+                  - /url: https://www.facebook.com/opencart/
+              - generic [ref=f8e89]:
+                - heading [level=3] [ref=f8e90]:
+                  - link "" [ref=f8e91] [cursor=pointer]:
+                    - /url: https://forum.opencart.com/?utm_source=opencart_install&utm_medium=forum_link&utm_campaign=opencart_install
+                  - text: Community forums
+                - paragraph [ref=f8e93]: Get help from other OpenCart users
+                - link "Visit our forums" [ref=f8e94] [cursor=pointer]:
+                  - /url: https://forum.opencart.com/?utm_source=opencart_install&utm_medium=forum_link&utm_campaign=opencart_install
+              - generic [ref=f8e95]:
+                - heading [level=3] [ref=f8e96]:
+                  - link "" [ref=f8e97] [cursor=pointer]:
+                    - /url: https://www.opencart.com/index.php?route=support/partner&utm_source=opencart_install&utm_medium=partner_link&utm_campaign=opencart_install
+                  - text: Commercial support
+                - paragraph [ref=f8e99]: Development services from OpenCart partners
+                - link "Visit our partner page" [ref=f8e100] [cursor=pointer]:
+                  - /url: https://www.opencart.com/index.php?route=support/partner&utm_source=opencart_install&utm_medium=partner_link&utm_campaign=opencart_install
+    - contentinfo [ref=f8e101]:
+      - generic [ref=f8e102]:
+        - link "Project Homepage" [ref=f8e103] [cursor=pointer]:
+          - /url: https://www.opencart.com/?utm_source=opencart_install&utm_medium=footer_link&utm_campaign=opencart_install
+        - text: "|"
+        - link "Documentation" [ref=f8e104] [cursor=pointer]:
+          - /url: http://docs.opencart.com/?utm_source=opencart_install&utm_medium=footer_link&utm_campaign=opencart_install
+        - text: "|"
+        - link "Support Forums" [ref=f8e105] [cursor=pointer]:
+          - /url: https://forum.opencart.com/?utm_source=opencart_install&utm_medium=footer_link&utm_campaign=opencart_install
+        - link "OpenCart" [ref=f8e106] [cursor=pointer]:
+          - /url: https://www.opencart.com
+        - text: © 2009-2026 All Rights Reserved.

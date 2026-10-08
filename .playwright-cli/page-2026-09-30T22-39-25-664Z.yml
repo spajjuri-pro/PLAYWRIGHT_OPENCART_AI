@@ -1,0 +1,305 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://www.opencart.com/index.php?route=common/home
+          - img "OpenCart - Open Source Shopping Cart Solution" [ref=e6]
+        - generic [ref=e7]:
+          - list [ref=e8]:
+            - listitem [ref=e9]:
+              - link "Features" [ref=e10] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/feature
+            - listitem [ref=e11]:
+              - link "Demo" [ref=e12] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/demo
+            - listitem [ref=e13]:
+              - link "Marketplace" [ref=e14] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=marketplace/extension
+            - listitem [ref=e15]:
+              - link "Blog" [ref=e16] [cursor=pointer]:
+                - /url: https://www.opencart.com/blog
+            - listitem [ref=e17]:
+              - link "Download" [ref=e18] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/download
+            - listitem [ref=e19]:
+              - link "Resources" [ref=e20] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=e22]:
+            - link "Login" [ref=e23] [cursor=pointer]:
+              - /url: https://www.opencart.com/index.php?route=account/login
+            - link "Register" [ref=e24] [cursor=pointer]:
+              - /url: https://www.opencart.com/index.php?route=account/register
+  - generic [ref=e25]:
+    - generic [ref=e29]:
+      - heading "The best open-source and FREE eCommerce platform" [level=1] [ref=e30]
+      - paragraph [ref=e31]: Everything you need to create, scale and run your business
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: OpenCart Store in 5 minutes
+          - link "Start now" [ref=e35] [cursor=pointer]:
+            - /url: https://www.scalahosting.com/opencart-hosting.html#67c83d5d66431
+          - link "Quick Guide" [ref=e36] [cursor=pointer]:
+            - /url: https://www.opencart.com/index.php?route=cms/guide
+        - generic [ref=e37]:
+          - generic [ref=e38]: Install OpenCart for free
+          - link "Free Download" [ref=e39] [cursor=pointer]:
+            - /url: https://www.opencart.com/index.php?route=cms/download
+          - link "View Demo" [ref=e40] [cursor=pointer]:
+            - /url: https://www.opencart.com/index.php?route=cms/demo
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - heading "Simple to start. Easy to run." [level=2] [ref=e44]
+        - paragraph [ref=e45]: Start your free OpenCart eCommerce store now!
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - heading " Open-Source and Free" [level=4] [ref=e48]:
+            - generic [ref=e49]: 
+            - generic [ref=e50]: Open-Source and Free
+          - paragraph [ref=e51]: Open source means transparent. OpenCart comes with free downloads and updates. Zero monthly fees.
+        - generic [ref=e52]:
+          - heading " Powerful Store Management" [level=4] [ref=e53]:
+            - generic [ref=e54]: 
+            - generic [ref=e55]: Powerful Store Management
+          - paragraph [ref=e56]: Benefit from our built-in SEO. Easy manage products, customers, orders, taxes rules, coupon codes and more.
+        - generic [ref=e57]:
+          - heading " Extensions and Themes" [level=4] [ref=e58]:
+            - generic [ref=e59]: 
+            - generic [ref=e60]: Extensions and Themes
+          - paragraph [ref=e61]: The biggest eCommerce selections of modules and themes to expand your store functionality.
+        - generic [ref=e62]:
+          - heading " Support You Can Trust" [level=4] [ref=e63]:
+            - generic [ref=e64]: 
+            - generic [ref=e65]: Support You Can Trust
+          - paragraph [ref=e66]: We’ve got you covered. OpenCart offers free community or dedicated commercial support.
+    - generic [ref=e67]:
+      - generic [ref=e69]:
+        - heading "OpenCart Cloud A Fully Hosted eCommerce Solution" [level=2] [ref=e70]
+        - paragraph [ref=e71]: A powerful cloud-based solution for your business, hosted on Turbo-fast NVMe SSD for exceptional speed and performance. No need to purchase or configure separate hosting—everything is managed for you. OpenCart Cloud offers multiple plans, allowing businesses of all sizes to choose the perfect fit for their needs. Enjoy seamless scalability, security, and hassle-free management with OpenCart Cloud.
+        - link "Get Started" [ref=e73] [cursor=pointer]:
+          - /url: https://www.scalahosting.com/opencart-hosting.html#67c83d5d66431
+      - text:    
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - heading "From corporations to local businesses" [level=2] [ref=e79]
+        - paragraph [ref=e80]: OpenCart powers over 471 669 eCommerce Entrepreneurs all over the world
+      - list [ref=e81]:
+        - listitem [ref=e82]:
+          - link [ref=e83] [cursor=pointer]:
+            - /url: https://www.cxracing.com/
+        - listitem [ref=e84]:
+          - link [ref=e85] [cursor=pointer]:
+            - /url: https://www.rcmart.com/
+        - listitem [ref=e86]:
+          - link [ref=e87] [cursor=pointer]:
+            - /url: https://www.dirsalonfurniture.com/
+        - listitem [ref=e88]:
+          - link [ref=e89] [cursor=pointer]:
+            - /url: https://www.goodsmileus.com/
+        - listitem [ref=e90]:
+          - link [ref=e91] [cursor=pointer]:
+            - /url: https://hobbii.com/
+        - listitem [ref=e92]:
+          - link [ref=e93] [cursor=pointer]:
+            - /url: https://pharmacyloreto.com/
+    - generic [ref=e96]:
+      - heading "13000+ modules and themes. Marketplace for all your needs." [level=2] [ref=e97]
+      - paragraph [ref=e98]: The OpenCart marketplace features 13000+ modules and themes to jump-start, grow and expand your business. You can find beautiful themes for just about any sector, service integrations, payment providers, shipping methods, social media, marketing, accounting, reporting, sales as well as language packs.
+      - link "Visit Marketplace" [ref=e100] [cursor=pointer]:
+        - /url: https://www.opencart.com/index.php?route=marketplace/extension
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - heading "Payment gateways and shipping methods" [level=2] [ref=e106]
+        - paragraph [ref=e107]: The world's most renowned payment gateways and shipping methods integrated for you
+      - list [ref=e108]:
+        - listitem [ref=e109]
+        - listitem [ref=e111]
+        - listitem [ref=e113]
+        - listitem [ref=e115]
+        - listitem [ref=e117]
+      - list [ref=e119]:
+        - listitem [ref=e120]
+        - listitem [ref=e122]
+        - listitem [ref=e124]
+        - listitem [ref=e126]
+        - listitem [ref=e128]
+      - list [ref=e130]:
+        - listitem [ref=e131]
+        - listitem [ref=e133]
+        - listitem [ref=e135]
+        - listitem [ref=e137]
+        - listitem [ref=e139]
+        - listitem [ref=e141]
+      - paragraph [ref=e143]:
+        - link "Visit All" [ref=e144] [cursor=pointer]:
+          - /url: https://www.opencart.com/index.php?route=marketplace/extension
+    - generic [ref=e146]:
+      - heading "Significant Achievements" [level=2] [ref=e147]
+      - paragraph [ref=e148]: Opencart Awards
+      - generic [ref=e149]:
+        - img "Opencart Awards" [ref=e151]
+        - img "Opencart Awards" [ref=e153]
+        - img "Opencart Awards" [ref=e155]
+      - generic [ref=e156]:
+        - img "Opencart Awards" [ref=e158]
+        - img "Opencart Awards" [ref=e160]
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - heading "Support based on your needs" [level=2] [ref=e163]
+        - paragraph [ref=e164]: OpenCart offers Community or Dedicated Support
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - img "Community Support" [ref=e167]
+          - heading "Community Support" [level=2] [ref=e168]
+          - paragraph [ref=e169]: OpenCart forums is a great way to get community support. With more than 110 000 registered members and 550 000+ posts you are part of one of the biggest ecommerce communities
+          - paragraph [ref=e170]:
+            - link "Learn More" [ref=e171] [cursor=pointer]:
+              - /url: https://forum.opencart.com
+        - generic [ref=e172]:
+          - img "Dedicated Support" [ref=e173]
+          - heading "Dedicated Support" [level=2] [ref=e174]
+          - paragraph [ref=e175]: OpenCart offers dedicated technical support. The service is great for anyone who wants to get professional technical support for their OpenCart project right from the source.
+          - paragraph [ref=e176]:
+            - link "Learn More" [ref=e177] [cursor=pointer]:
+              - /url: https://dedicated.opencart.com
+    - generic [ref=e180]:
+      - generic [ref=e181]: Featured in the Press by
+      - list [ref=e183]:
+        - listitem [ref=e184]:
+          - link [ref=e185] [cursor=pointer]:
+            - /url: https://www.forbes.com/sites/brentgleeson/2014/09/05/3-steps-to-launch-your-first-ecommerce-website/
+            - img "Forbes" [ref=e186]
+        - listitem [ref=e187]:
+          - link [ref=e188] [cursor=pointer]:
+            - /url: https://www.paypal.com/uk/webapps/mpp/open-cart
+            - img "PayPal" [ref=e189]
+        - listitem [ref=e190]:
+          - link [ref=e191] [cursor=pointer]:
+            - /url: https://www.bbc.co.uk/news/business-26986083
+            - img "BBC" [ref=e192]
+        - listitem [ref=e193]:
+          - link [ref=e194] [cursor=pointer]:
+            - /url: https://www.scmp.com/article/1604647/business-mind-daniel-kerr-founder-opencart
+            - img "South China Morning Post" [ref=e195]
+        - listitem [ref=e196]:
+          - link [ref=e197] [cursor=pointer]:
+            - /url: https://fixthephoto.com/opencart-review.html
+            - img "Fix The Photo" [ref=e198]
+  - contentinfo [ref=e199]:
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - generic [ref=e203]:
+          - heading "OpenCart" [level=5] [ref=e204]
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - link "Features" [ref=e207] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/feature
+            - listitem [ref=e208]:
+              - link "Showcase" [ref=e209] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/showcase
+            - listitem [ref=e210]:
+              - link "Demo" [ref=e211] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/demo
+            - listitem [ref=e212]:
+              - link "Download" [ref=e213] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/download
+            - listitem [ref=e214]:
+              - link "Marketplace" [ref=e215] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=marketplace/extension
+            - listitem [ref=e216]:
+              - link "Login" [ref=e217] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=account/login
+        - generic [ref=e219]:
+          - heading "Company" [level=5] [ref=e220]
+          - list [ref=e221]:
+            - listitem [ref=e222]:
+              - link "Contact Us" [ref=e223] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=support/contact
+            - listitem [ref=e224]:
+              - link "Extension Advertising" [ref=e225] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=support/advertise
+            - listitem [ref=e226]:
+              - link "Marketplace Advertising" [ref=e227] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=support/advertise
+            - listitem [ref=e228]:
+              - link "About Us" [ref=e229] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/company
+            - listitem [ref=e230]:
+              - link "Terms & Conditions" [ref=e231] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/terms
+            - listitem [ref=e232]:
+              - link "Privacy Policy" [ref=e233] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/privacy
+            - listitem [ref=e234]:
+              - link "Refund Policy" [ref=e235] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/refund
+            - listitem [ref=e236]:
+              - link "GDPR" [ref=e237] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/gdpr
+            - listitem [ref=e238]:
+              - link "Extension Developer" [ref=e239] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/information&information_id=2
+        - generic [ref=e241]:
+          - heading "Support" [level=5] [ref=e242]
+          - list [ref=e243]:
+            - listitem [ref=e244]:
+              - link "Community Forum" [ref=e245] [cursor=pointer]:
+                - /url: https://forum.opencart.com
+            - listitem [ref=e246]:
+              - link "Dedicated Support" [ref=e247] [cursor=pointer]:
+                - /url: https://dedicated.opencart.com
+            - listitem [ref=e248]:
+              - link "OpenCart Partners" [ref=e249] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=support/partner
+            - listitem [ref=e250]:
+              - link "Marketplace Support" [ref=e251] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=support/support
+            - listitem [ref=e252]:
+              - link "Migrate to OpenCart" [ref=e253] [cursor=pointer]:
+                - /url: https://www.opencart.com/index.php?route=cms/cart2cart
+        - generic [ref=e255]:
+          - heading "Resources" [level=5] [ref=e256]
+          - list [ref=e257]:
+            - listitem [ref=e258]:
+              - link "OpenCart Blog" [ref=e259] [cursor=pointer]:
+                - /url: https://www.opencart.com/blog
+            - listitem [ref=e260]:
+              - link "OpenCart Documentation" [ref=e261] [cursor=pointer]:
+                - /url: https://docs.opencart.com
+            - listitem [ref=e262]:
+              - link "GitHub" [ref=e263] [cursor=pointer]:
+                - /url: https://github.com/opencart/opencart
+            - listitem [ref=e264]:
+              - link "OpenCart Books" [ref=e265] [cursor=pointer]:
+                - /url: https://docs.opencart.com/#additional-reading
+            - listitem [ref=e266]:
+              - link "Github Bug Tracker" [ref=e267] [cursor=pointer]:
+                - /url: https://github.com/opencart/opencart/issues
+            - listitem [ref=e268]:
+              - link "Developer" [ref=e269] [cursor=pointer]:
+                - /url: https://docs.opencart.com/developer/module/
+        - generic [ref=e271]:
+          - heading "Newsletter" [level=5] [ref=e272]
+          - paragraph [ref=e273]: Subscribe to our newsletters and stay informed of new releases and other OpenCart events.
+          - generic [ref=e274]:
+            - textbox "Enter your email address" [ref=e275]
+            - button "" [ref=e277] [cursor=pointer]
+      - generic [ref=e279]:
+        - list [ref=e282]:
+          - listitem [ref=e283]:
+            - img "OpenCart" [ref=e284]
+          - listitem [ref=e285]: © Copyright 2026 OpenCart
+        - list [ref=e288]:
+          - listitem [ref=e289]:
+            - link [ref=e290] [cursor=pointer]:
+              - /url: https://www.facebook.com/fmp/commerce/partner-badge
+              - img "Facebook Marketing Partner" [ref=e291]
+          - listitem [ref=e292]:
+            - link "Linkedin" [ref=e293] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/5224021/
+          - listitem [ref=e294]:
+            - link "Facebook" [ref=e295] [cursor=pointer]:
+              - /url: https://www.facebook.com/opencart/?ref=aymt_homepage_panel
+          - listitem [ref=e296]:
+            - link "Twitter" [ref=e297] [cursor=pointer]:
+              - /url: https://twitter.com/opencart

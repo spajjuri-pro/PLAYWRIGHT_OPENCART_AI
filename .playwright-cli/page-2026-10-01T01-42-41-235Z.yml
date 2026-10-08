@@ -1,0 +1,84 @@
+- generic [ref=f7e2]:
+  - banner [ref=f7e3]:
+    - link [ref=f7e5] [cursor=pointer]:
+      - /url: ""
+      - img "OpenCart" [ref=f7e6]
+  - generic [ref=f7e7]:
+    - generic [ref=f7e9]:
+      - button "Language " [ref=f7e12] [cursor=pointer]:
+        - text: Language
+        - generic [ref=f7e13]: 
+      - heading "Configuration" [level=1] [ref=f7e14]
+    - generic [ref=f7e16]:
+      - generic [ref=f7e17]:
+        - generic [ref=f7e18]: 
+        - text: Enter your database and administration details
+      - generic [ref=f7e20]:
+        - group "1. Please enter your database connection details." [ref=f7e21]:
+          - generic [ref=f7e23]:
+            - generic [ref=f7e25]:
+              - paragraph [ref=f7e26]: "Information about setting up a databases on different platforms:"
+              - list [ref=f7e27]:
+                - listitem [ref=f7e28]:
+                  - strong [ref=f7e29]:
+                    - link "CPanel DB Setup" [ref=f7e30] [cursor=pointer]:
+                      - /url: https://docs.cpanel.net/cpanel/databases/mysql-databases/
+                - listitem [ref=f7e31]:
+                  - strong [ref=f7e32]:
+                    - link "Plesk DB Setup" [ref=f7e33] [cursor=pointer]:
+                      - /url: https://support.plesk.com/hc/en-us/articles/115004263014-How-to-create-a-database-in-Plesk
+            - generic [ref=f7e34]:
+              - generic [ref=f7e35]:
+                - generic [ref=f7e36]:
+                  - generic [ref=f7e37]: DB Driver
+                  - combobox "DB Driver" [ref=f7e38]:
+                    - option "MySQLi" [selected]
+                    - option "mPDO"
+                - generic [ref=f7e39]:
+                  - generic [ref=f7e40]: "* Hostname"
+                  - textbox "* Hostname" [ref=f7e41]: localhost
+              - generic [ref=f7e42]:
+                - generic [ref=f7e43]:
+                  - generic [ref=f7e44]: "* Username"
+                  - textbox "* Username" [ref=f7e45]: root
+                - generic [ref=f7e46]:
+                  - generic [ref=f7e47]: Password
+                  - textbox "Password" [ref=f7e48]
+              - generic [ref=f7e49]:
+                - generic [ref=f7e50]:
+                  - generic [ref=f7e51]: "* Database"
+                  - textbox "* Database" [ref=f7e52]
+                - generic [ref=f7e53]:
+                  - generic [ref=f7e54]: Prefix
+                  - textbox "Prefix" [ref=f7e55]: oc_
+                - generic [ref=f7e56]:
+                  - generic [ref=f7e57]: "* Port"
+                  - textbox "* Port" [ref=f7e58]: "3306"
+        - group "2. Please enter a username and password for the administration." [ref=f7e59]:
+          - generic [ref=f7e61]:
+            - generic [ref=f7e62]:
+              - generic [ref=f7e63]: "* Username"
+              - textbox "* Username" [ref=f7e64]: admin
+            - generic [ref=f7e65]:
+              - generic [ref=f7e66]: "* Password"
+              - textbox "* Password" [ref=f7e67]
+          - generic [ref=f7e68]:
+            - generic [ref=f7e69]: "* E-Mail"
+            - textbox "* E-Mail" [ref=f7e70]
+        - generic [ref=f7e71]:
+          - link "Back" [ref=f7e73] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/install/index.php?route=install/step_2&language=en-gb
+          - button "Continue" [ref=f7e75] [cursor=pointer]
+  - contentinfo [ref=f7e76]:
+    - generic [ref=f7e77]:
+      - link "Project Homepage" [ref=f7e78] [cursor=pointer]:
+        - /url: https://www.opencart.com/?utm_source=opencart_install&utm_medium=footer_link&utm_campaign=opencart_install
+      - text: "|"
+      - link "Documentation" [ref=f7e79] [cursor=pointer]:
+        - /url: http://docs.opencart.com/?utm_source=opencart_install&utm_medium=footer_link&utm_campaign=opencart_install
+      - text: "|"
+      - link "Support Forums" [ref=f7e80] [cursor=pointer]:
+        - /url: https://forum.opencart.com/?utm_source=opencart_install&utm_medium=footer_link&utm_campaign=opencart_install
+      - link "OpenCart" [ref=f7e81] [cursor=pointer]:
+        - /url: https://www.opencart.com
+      - text: © 2009-2026 All Rights Reserved.

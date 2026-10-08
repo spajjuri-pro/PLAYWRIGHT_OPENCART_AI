@@ -1,0 +1,224 @@
+- generic [active] [ref=f24e1]:
+  - navigation [ref=f24e3]:
+    - generic:
+      - list [ref=f24e5]:
+        - listitem [ref=f24e6]:
+          - link "$ Currency " [ref=f24e9] [cursor=pointer]:
+            - /url: "#"
+            - strong [ref=f24e10]: $
+            - text: Currency
+            - generic [ref=f24e11]: 
+        - listitem
+      - list [ref=f24e13]:
+        - listitem [ref=f24e14]:
+          - link "" [ref=f24e15] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=information/contact&language=en-gb
+          - text: "123456789"
+        - listitem [ref=f24e17]:
+          - link " My Account " [ref=f24e19] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=account/account&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - generic [ref=f24e20]: 
+            - text: My Account
+            - generic [ref=f24e21]: 
+        - listitem [ref=f24e22]:
+          - link " Wish List (0)" [ref=f24e23] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=account/wishlist&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - generic [ref=f24e24]: 
+            - text: Wish List (0)
+        - listitem [ref=f24e25]:
+          - link " Shopping Cart" [ref=f24e26] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=checkout/cart&language=en-gb
+            - generic [ref=f24e27]: 
+            - text: Shopping Cart
+        - listitem [ref=f24e28]:
+          - link " Checkout" [ref=f24e29] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=checkout/checkout&language=en-gb
+            - generic [ref=f24e30]: 
+            - text: Checkout
+  - banner [ref=f24e31]:
+    - generic [ref=f24e33]:
+      - link [ref=f24e36] [cursor=pointer]:
+        - /url: http://localhost:8080/opencart/upload/index.php?route=common/home&language=en-gb
+        - img "Your Store" [ref=f24e37]
+      - generic [ref=f24e39]:
+        - textbox "Search" [ref=f24e40]
+        - button "" [ref=f24e41] [cursor=pointer]
+      - button " 0 item(s) - $0.00" [ref=f24e45] [cursor=pointer]:
+        - generic [ref=f24e46]: 
+        - text: 0 item(s) - $0.00
+  - main [ref=f24e47]:
+    - navigation [ref=f24e49]:
+      - text: 
+      - list [ref=f24e51]:
+        - listitem [ref=f24e52]:
+          - link "Desktops" [ref=f24e53] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=20
+        - listitem [ref=f24e54]:
+          - link "Laptops & Notebooks" [ref=f24e55] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=18
+        - listitem [ref=f24e56]:
+          - link "Components" [ref=f24e57] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=25
+        - listitem [ref=f24e58]:
+          - link "Tablets" [ref=f24e59] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=57
+        - listitem [ref=f24e60]:
+          - link "Software" [ref=f24e61] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=17
+        - listitem [ref=f24e62]:
+          - link "Phones & PDAs" [ref=f24e63] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=24
+        - listitem [ref=f24e64]:
+          - link "Cameras" [ref=f24e65] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=33
+        - listitem [ref=f24e66]:
+          - link "MP3 Players" [ref=f24e67] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=34
+    - generic [ref=f24e68]:
+      - list [ref=f24e69]:
+        - listitem [ref=f24e70]:
+          - link "" [ref=f24e71] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=common/home&language=en-gb
+        - listitem [ref=f24e73]:
+          - link "Account" [ref=f24e74] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=account/account&language=en-gb&customer_token=7844fa83f2f633201232c52576
+      - generic [ref=f24e75]:
+        - generic [ref=f24e76]:
+          - heading "My Account" [level=2] [ref=f24e77]
+          - list [ref=f24e78]:
+            - listitem [ref=f24e79]:
+              - link "Edit your account information" [ref=f24e80] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/edit&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - listitem [ref=f24e81]:
+              - link "Change your password" [ref=f24e82] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/password&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - listitem [ref=f24e83]:
+              - link "Modify your address book entries" [ref=f24e84] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/address&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - listitem [ref=f24e85]:
+              - link "Modify your wish list" [ref=f24e86] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/wishlist&language=en-gb&customer_token=7844fa83f2f633201232c52576
+          - heading "My Orders" [level=2] [ref=f24e87]
+          - list [ref=f24e88]:
+            - listitem [ref=f24e89]:
+              - link "View your order history" [ref=f24e90] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/order&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - listitem [ref=f24e91]:
+              - link "Subscriptions" [ref=f24e92] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/subscription&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - listitem [ref=f24e93]:
+              - link "Downloads" [ref=f24e94] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/download&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - listitem [ref=f24e95]:
+              - link "Your Reward Points" [ref=f24e96] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/reward&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - listitem [ref=f24e97]:
+              - link "View your return requests" [ref=f24e98] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/returns&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - listitem [ref=f24e99]:
+              - link "Your Transactions" [ref=f24e100] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/transaction&language=en-gb&customer_token=7844fa83f2f633201232c52576
+          - heading "My Affiliate Account" [level=2] [ref=f24e101]
+          - list [ref=f24e102]:
+            - listitem [ref=f24e103]:
+              - link "Register for an affiliate account" [ref=f24e104] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/affiliate&language=en-gb&customer_token=7844fa83f2f633201232c52576
+          - heading "Newsletter" [level=2] [ref=f24e105]
+          - list [ref=f24e106]:
+            - listitem [ref=f24e107]:
+              - link "Subscribe / unsubscribe to newsletter" [ref=f24e108] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/newsletter&language=en-gb&customer_token=7844fa83f2f633201232c52576
+        - complementary [ref=f24e109]:
+          - generic [ref=f24e110]:
+            - link "My Account" [ref=f24e111] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/index.php?route=account/account&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - link "Edit Account" [ref=f24e112] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/index.php?route=account/edit&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - link "Password" [ref=f24e113] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/index.php?route=account/password&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - link "Address Book" [ref=f24e114] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/index.php?route=account/address&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - link "Wish List" [ref=f24e115] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/index.php?route=account/wishlist&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - link "Order History" [ref=f24e116] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/index.php?route=account/order&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - link "Downloads" [ref=f24e117] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/index.php?route=account/download&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - link "Subscriptions" [ref=f24e118] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/index.php?route=account/subscription&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - link "Reward Points" [ref=f24e119] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/index.php?route=account/reward&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - link "Returns" [ref=f24e120] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/index.php?route=account/returns&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - link "Transactions" [ref=f24e121] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/index.php?route=account/transaction&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - link "Newsletter" [ref=f24e122] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/index.php?route=account/newsletter&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - link "Logout" [ref=f24e123] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/index.php?route=account/logout&language=en-gb
+  - contentinfo [ref=f24e124]:
+    - generic [ref=f24e125]:
+      - generic [ref=f24e126]:
+        - generic [ref=f24e127]:
+          - heading "Information" [level=5] [ref=f24e128]
+          - list [ref=f24e129]:
+            - listitem [ref=f24e130]:
+              - link "Terms & Conditions" [ref=f24e131] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=information/information&language=en-gb&information_id=2
+            - listitem [ref=f24e132]:
+              - link "Delivery Information" [ref=f24e133] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=information/information&language=en-gb&information_id=4
+            - listitem [ref=f24e134]:
+              - link "About Us" [ref=f24e135] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=information/information&language=en-gb&information_id=1
+            - listitem [ref=f24e136]:
+              - link "Privacy Policy" [ref=f24e137] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=information/information&language=en-gb&information_id=3
+        - generic [ref=f24e138]:
+          - heading "Customer Service" [level=5] [ref=f24e139]
+          - list [ref=f24e140]:
+            - listitem [ref=f24e141]:
+              - link "Contact Us" [ref=f24e142] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=information/contact&language=en-gb
+            - listitem [ref=f24e143]:
+              - link "Returns" [ref=f24e144] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/returns.add&language=en-gb
+            - listitem [ref=f24e145]:
+              - link "Site Map" [ref=f24e146] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=information/sitemap&language=en-gb
+        - generic [ref=f24e147]:
+          - heading "Extras" [level=5] [ref=f24e148]
+          - list [ref=f24e149]:
+            - listitem [ref=f24e150]:
+              - link "Brands" [ref=f24e151] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=product/manufacturer&language=en-gb
+            - listitem [ref=f24e152]:
+              - link "Gift Certificates" [ref=f24e153] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=checkout/voucher&language=en-gb
+            - listitem [ref=f24e154]:
+              - link "Affiliate" [ref=f24e155] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/affiliate&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - listitem [ref=f24e156]:
+              - link "Specials" [ref=f24e157] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=product/special&language=en-gb&customer_token=7844fa83f2f633201232c52576
+        - generic [ref=f24e158]:
+          - heading "My Account" [level=5] [ref=f24e159]
+          - list [ref=f24e160]:
+            - listitem [ref=f24e161]:
+              - link "My Account" [ref=f24e162] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/account&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - listitem [ref=f24e163]:
+              - link "Order History" [ref=f24e164] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/order&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - listitem [ref=f24e165]:
+              - link "Wish List" [ref=f24e166] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/wishlist&language=en-gb&customer_token=7844fa83f2f633201232c52576
+            - listitem [ref=f24e167]:
+              - link "Newsletter" [ref=f24e168] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/newsletter&language=en-gb&customer_token=7844fa83f2f633201232c52576
+      - separator [ref=f24e169]
+      - paragraph [ref=f24e170]:
+        - text: Powered By
+        - link "OpenCart" [ref=f24e171] [cursor=pointer]:
+          - /url: https://www.opencart.com
+        - text: Your Store © 2026

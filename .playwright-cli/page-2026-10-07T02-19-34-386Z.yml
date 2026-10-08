@@ -1,0 +1,210 @@
+- generic [active] [ref=f5e1]:
+  - navigation [ref=f5e3]:
+    - generic:
+      - list [ref=f5e5]:
+        - listitem [ref=f5e6]:
+          - link "$ Currency " [ref=f5e9] [cursor=pointer]:
+            - /url: "#"
+            - strong [ref=f5e10]: $
+            - text: Currency
+            - generic [ref=f5e11]: 
+        - listitem
+      - list [ref=f5e13]:
+        - listitem [ref=f5e14]:
+          - link "" [ref=f5e15] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=information/contact&language=en-gb
+          - text: "123456789"
+        - listitem [ref=f5e17]:
+          - link " My Account " [ref=f5e19] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=f5e20]: 
+            - text: My Account
+            - generic [ref=f5e21]: 
+        - listitem [ref=f5e22]:
+          - link " Wish List (0)" [ref=f5e23] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=account/wishlist&language=en-gb
+            - generic [ref=f5e24]: 
+            - text: Wish List (0)
+        - listitem [ref=f5e25]:
+          - link " Shopping Cart" [ref=f5e26] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=checkout/cart&language=en-gb
+            - generic [ref=f5e27]: 
+            - text: Shopping Cart
+        - listitem [ref=f5e28]:
+          - link " Checkout" [ref=f5e29] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=checkout/checkout&language=en-gb
+            - generic [ref=f5e30]: 
+            - text: Checkout
+  - banner [ref=f5e31]:
+    - generic [ref=f5e33]:
+      - link [ref=f5e36] [cursor=pointer]:
+        - /url: http://localhost:8080/opencart/upload/index.php?route=common/home&language=en-gb
+        - img "Your Store" [ref=f5e37]
+      - generic [ref=f5e39]:
+        - textbox "Search" [ref=f5e40]
+        - button "" [ref=f5e41] [cursor=pointer]
+      - generic [ref=f5e44]:
+        - button " 2 item(s) - $1,204.00" [ref=f5e45] [cursor=pointer]:
+          - generic [ref=f5e46]: 
+          - text: 2 item(s) - $1,204.00
+        - text:   
+  - main [ref=f5e47]:
+    - navigation [ref=f5e49]:
+      - text: 
+      - list [ref=f5e51]:
+        - listitem [ref=f5e52]:
+          - link "Desktops" [ref=f5e53] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=20
+        - listitem [ref=f5e54]:
+          - link "Laptops & Notebooks" [ref=f5e55] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=18
+        - listitem [ref=f5e56]:
+          - link "Components" [ref=f5e57] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=25
+        - listitem [ref=f5e58]:
+          - link "Tablets" [ref=f5e59] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=57
+        - listitem [ref=f5e60]:
+          - link "Software" [ref=f5e61] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=17
+        - listitem [ref=f5e62]:
+          - link "Phones & PDAs" [ref=f5e63] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=24
+        - listitem [ref=f5e64]:
+          - link "Cameras" [ref=f5e65] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=33
+        - listitem [ref=f5e66]:
+          - link "MP3 Players" [ref=f5e67] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=product/category&language=en-gb&path=34
+    - generic [ref=f5e68]:
+      - list [ref=f5e69]:
+        - listitem [ref=f5e70]:
+          - link "" [ref=f5e71] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=common/home&language=en-gb
+        - listitem [ref=f5e73]:
+          - link "Shopping Cart" [ref=f5e74] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=checkout/cart&language=en-gb
+      - generic [ref=f5e76]:
+        - heading "Shopping Cart (0.00kg)" [level=1] [ref=f5e77]
+        - table [ref=f5e80]:
+          - rowgroup [ref=f5e81]:
+            - row [ref=f5e82]:
+              - cell "Image" [ref=f5e83]
+              - cell "Product Name" [ref=f5e84]
+              - cell "Model" [ref=f5e85]
+              - cell "Quantity" [ref=f5e86]
+              - cell "Unit Price" [ref=f5e87]
+              - cell "Total" [ref=f5e88]
+          - rowgroup [ref=f5e89]:
+            - row [ref=f5e90]:
+              - cell [ref=f5e91]:
+                - link [ref=f5e92] [cursor=pointer]:
+                  - /url: http://localhost:8080/opencart/upload/index.php?route=product/product&language=en-gb&product_id=43
+                  - img "MacBook" [ref=f5e93]
+              - cell [ref=f5e94]:
+                - link "MacBook" [ref=f5e95] [cursor=pointer]:
+                  - /url: http://localhost:8080/opencart/upload/index.php?route=product/product&language=en-gb&product_id=43
+                - text: "- Reward Points: 1200"
+              - cell "Product 16" [ref=f5e96]
+              - cell [ref=f5e97]:
+                - generic [ref=f5e99]:
+                  - textbox [ref=f5e100]: "2"
+                  - button "" [ref=f5e101] [cursor=pointer]
+                  - button "" [ref=f5e103] [cursor=pointer]
+              - cell "$602.00" [ref=f5e105]
+              - cell "$1,202.00" [ref=f5e106]
+          - rowgroup [ref=f5e107]:
+            - row [ref=f5e108]:
+              - cell [ref=f5e109]:
+                - strong [ref=f5e110]: Sub-Total
+              - cell "$1,000.00" [ref=f5e111]
+            - row [ref=f5e112]:
+              - cell [ref=f5e113]:
+                - strong [ref=f5e114]: Eco Tax (-2.00)
+              - cell "$4.00" [ref=f5e115]
+            - row [ref=f5e116]:
+              - cell [ref=f5e117]:
+                - strong [ref=f5e118]: VAT (20%)
+              - cell "$200.00" [ref=f5e119]
+            - row [ref=f5e120]:
+              - cell [ref=f5e121]:
+                - strong [ref=f5e122]: Total
+              - cell "$1,204.00" [ref=f5e123]
+        - heading "What would you like to do next?" [level=2] [ref=f5e124]
+        - paragraph [ref=f5e125]: Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.
+        - generic [ref=f5e126]:
+          - heading [level=2] [ref=f5e128]:
+            - button "Use Coupon Code" [ref=f5e129] [cursor=pointer]
+          - heading [level=2] [ref=f5e131]:
+            - button "Use Gift Certificate" [ref=f5e132] [cursor=pointer]
+        - generic [ref=f5e133]:
+          - link "Continue Shopping" [ref=f5e135] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=common/home&language=en-gb
+          - link "Checkout" [ref=f5e137] [cursor=pointer]:
+            - /url: http://localhost:8080/opencart/upload/index.php?route=checkout/checkout&language=en-gb
+  - contentinfo [ref=f5e138]:
+    - generic [ref=f5e139]:
+      - generic [ref=f5e140]:
+        - generic [ref=f5e141]:
+          - heading "Information" [level=5] [ref=f5e142]
+          - list [ref=f5e143]:
+            - listitem [ref=f5e144]:
+              - link "Terms & Conditions" [ref=f5e145] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=information/information&language=en-gb&information_id=2
+            - listitem [ref=f5e146]:
+              - link "Delivery Information" [ref=f5e147] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=information/information&language=en-gb&information_id=4
+            - listitem [ref=f5e148]:
+              - link "About Us" [ref=f5e149] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=information/information&language=en-gb&information_id=1
+            - listitem [ref=f5e150]:
+              - link "Privacy Policy" [ref=f5e151] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=information/information&language=en-gb&information_id=3
+        - generic [ref=f5e152]:
+          - heading "Customer Service" [level=5] [ref=f5e153]
+          - list [ref=f5e154]:
+            - listitem [ref=f5e155]:
+              - link "Contact Us" [ref=f5e156] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=information/contact&language=en-gb
+            - listitem [ref=f5e157]:
+              - link "Returns" [ref=f5e158] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/returns.add&language=en-gb
+            - listitem [ref=f5e159]:
+              - link "Site Map" [ref=f5e160] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=information/sitemap&language=en-gb
+        - generic [ref=f5e161]:
+          - heading "Extras" [level=5] [ref=f5e162]
+          - list [ref=f5e163]:
+            - listitem [ref=f5e164]:
+              - link "Brands" [ref=f5e165] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=product/manufacturer&language=en-gb
+            - listitem [ref=f5e166]:
+              - link "Gift Certificates" [ref=f5e167] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=checkout/voucher&language=en-gb
+            - listitem [ref=f5e168]:
+              - link "Affiliate" [ref=f5e169] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/affiliate&language=en-gb
+            - listitem [ref=f5e170]:
+              - link "Specials" [ref=f5e171] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=product/special&language=en-gb
+        - generic [ref=f5e172]:
+          - heading "My Account" [level=5] [ref=f5e173]
+          - list [ref=f5e174]:
+            - listitem [ref=f5e175]:
+              - link "My Account" [ref=f5e176] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/account&language=en-gb
+            - listitem [ref=f5e177]:
+              - link "Order History" [ref=f5e178] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/order&language=en-gb
+            - listitem [ref=f5e179]:
+              - link "Wish List" [ref=f5e180] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/wishlist&language=en-gb
+            - listitem [ref=f5e181]:
+              - link "Newsletter" [ref=f5e182] [cursor=pointer]:
+                - /url: http://localhost:8080/opencart/upload/index.php?route=account/newsletter&language=en-gb
+      - separator [ref=f5e183]
+      - paragraph [ref=f5e184]:
+        - text: Powered By
+        - link "OpenCart" [ref=f5e185] [cursor=pointer]:
+          - /url: https://www.opencart.com
+        - text: Your Store © 2026

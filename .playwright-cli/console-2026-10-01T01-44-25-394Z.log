@@ -1,0 +1,11 @@
+[      66ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:8080/opencart/upload/index.php?route=account/login&language=en-gb:0
+[     771ms] [LOG] ce.Event @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:298
+[     771ms] [LOG] element [object HTMLFormElement] @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:299
+[     771ms] [LOG] action http://localhost:8080/opencart/upload/index.php?route=account/login.login&language=en-gb&login_token=0d89b5b67fa5af0b8314df7b33 @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:300
+[     771ms] [LOG] button [object HTMLButtonElement] @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:301
+[     771ms] [LOG] formaction undefined @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:302
+[     771ms] [LOG] method post @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:303
+[     771ms] [LOG] enctype application/x-www-form-urlencoded @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:304
+[     771ms] [LOG] email=wrong%40xyz.com&password=wrongpass @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:305
+[     786ms] [LOG] {error: Object} @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:327
+[     786ms] [LOG] success @ http://localhost:8080/opencart/upload/catalog/view/javascript/common.js:328

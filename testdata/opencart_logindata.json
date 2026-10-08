@@ -1,0 +1,34 @@
+[
+    {
+        "testName": "Valid Login",
+        "email": "pavnol@xyz.com",
+        "password": "test123",
+        "expected": "success"
+
+    },
+    {
+    "testName": "Invalid login",
+    "email": "abcxyz@xyz.com",
+    "password": "abcxyx",
+    "expected": "failure"
+  },
+  {
+    "testName": "Invalid login",
+    "email": " ",
+    "password": "abcxyx",
+    "expected": "failure"
+  },
+  {
+    "testName": "Invalid login",
+    "email": "abcxyz@xyz.com",
+    "password": " ",
+    "expected": "failure"
+  },
+  {
+    "testName": "Invalid login",
+    "email": " ",
+    "password": " ",
+    "expected": "failure"
+  }
+
+]

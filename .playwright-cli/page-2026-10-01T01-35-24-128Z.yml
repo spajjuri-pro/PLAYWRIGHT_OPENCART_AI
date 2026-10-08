@@ -1,0 +1,123 @@
+- generic [ref=f3e2]:
+  - banner [ref=f3e3]:
+    - link [ref=f3e5] [cursor=pointer]:
+      - /url: ""
+      - img "OpenCart" [ref=f3e6]
+  - generic [ref=f3e7]:
+    - generic [ref=f3e9]:
+      - button "Language " [ref=f3e12] [cursor=pointer]:
+        - text: Language
+        - generic [ref=f3e13]: 
+      - heading "Pre-Installation" [level=1] [ref=f3e14]
+    - generic [ref=f3e15]:
+      - generic [ref=f3e16]:
+        - generic [ref=f3e17]: 
+        - text: "Warning: config.php does not exist. You need to rename config-dist.php to config.php!"
+      - generic [ref=f3e19]:
+        - generic [ref=f3e20]:
+          - generic [ref=f3e21]: 
+          - text: Check your server is set-up correctly
+        - generic [ref=f3e22]:
+          - group "1. Please configure your PHP settings to match requirements listed below." [ref=f3e23]:
+            - table [ref=f3e25]:
+              - rowgroup [ref=f3e26]:
+                - row [ref=f3e27]:
+                  - cell "PHP Settings" [ref=f3e28]
+                  - cell "Current Settings" [ref=f3e29]
+                  - cell "Required Settings" [ref=f3e30]
+                  - cell "Status" [ref=f3e31]
+              - rowgroup [ref=f3e32]:
+                - row [ref=f3e33]:
+                  - cell "PHP Version" [ref=f3e34]
+                  - cell "8.5.11" [ref=f3e35]
+                  - cell "8.0+" [ref=f3e36]
+                  - cell "" [ref=f3e37]
+                - row [ref=f3e40]:
+                  - cell "Register Globals" [ref=f3e41]
+                  - cell "Off" [ref=f3e42]
+                  - cell "Off" [ref=f3e43]
+                  - cell "" [ref=f3e44]
+                - row [ref=f3e47]:
+                  - cell "Magic Quotes GPC" [ref=f3e48]
+                  - cell "Off" [ref=f3e49]
+                  - cell "Off" [ref=f3e50]
+                  - cell "" [ref=f3e51]
+                - row [ref=f3e54]:
+                  - cell "File Uploads" [ref=f3e55]
+                  - cell "On" [ref=f3e56]
+                  - cell "On" [ref=f3e57]
+                  - cell "" [ref=f3e58]
+                - row [ref=f3e61]:
+                  - cell "Session Auto Start" [ref=f3e62]
+                  - cell "Off" [ref=f3e63]
+                  - cell "Off" [ref=f3e64]
+                  - cell "" [ref=f3e65]
+          - group "2. Please make sure the PHP extensions listed below are installed." [ref=f3e68]:
+            - table [ref=f3e70]:
+              - rowgroup [ref=f3e71]:
+                - row [ref=f3e72]:
+                  - cell "Extension Settings" [ref=f3e73]
+                  - cell "Current Settings" [ref=f3e74]
+                  - cell "Required Settings" [ref=f3e75]
+                  - cell "Status" [ref=f3e76]
+              - rowgroup [ref=f3e77]:
+                - row [ref=f3e78]:
+                  - cell "Database" [ref=f3e79]
+                  - cell "On" [ref=f3e80]
+                  - cell "On" [ref=f3e81]
+                  - cell "" [ref=f3e82]
+                - row [ref=f3e85]:
+                  - cell "GD" [ref=f3e86]
+                  - cell "On" [ref=f3e87]
+                  - cell "On" [ref=f3e88]
+                  - cell "" [ref=f3e89]
+                - row [ref=f3e92]:
+                  - cell "cURL" [ref=f3e93]
+                  - cell "On" [ref=f3e94]
+                  - cell "On" [ref=f3e95]
+                  - cell "" [ref=f3e96]
+                - row [ref=f3e99]:
+                  - cell "OpenSSL" [ref=f3e100]
+                  - cell "On" [ref=f3e101]
+                  - cell "On" [ref=f3e102]
+                  - cell "" [ref=f3e103]
+                - row [ref=f3e106]:
+                  - cell "ZLIB" [ref=f3e107]
+                  - cell "On" [ref=f3e108]
+                  - cell "On" [ref=f3e109]
+                  - cell "" [ref=f3e110]
+                - row [ref=f3e113]:
+                  - cell "ZIP" [ref=f3e114]
+                  - cell "On" [ref=f3e115]
+                  - cell "On" [ref=f3e116]
+                  - cell "" [ref=f3e117]
+          - group "3. Please make sure you have set the correct permissions on the files list below." [ref=f3e120]:
+            - table [ref=f3e122]:
+              - rowgroup [ref=f3e123]:
+                - row [ref=f3e124]:
+                  - cell "Files" [ref=f3e125]
+                  - cell "Status" [ref=f3e126]
+              - rowgroup [ref=f3e127]:
+                - row [ref=f3e128]:
+                  - cell "/Users/spajjuri/Sites/opencart/upload/config.php" [ref=f3e129]
+                  - cell "Missing" [ref=f3e130]
+                - row [ref=f3e131]:
+                  - cell "/Users/spajjuri/Sites/opencart/upload/admin/config.php" [ref=f3e132]
+                  - cell "Missing" [ref=f3e133]
+          - generic [ref=f3e134]:
+            - link "Back" [ref=f3e136] [cursor=pointer]:
+              - /url: http://localhost:8080/opencart/upload/install/index.php?route=install/step_1&language=en-gb
+            - button "Continue" [ref=f3e138] [cursor=pointer]
+  - contentinfo [ref=f3e139]:
+    - generic [ref=f3e140]:
+      - link "Project Homepage" [ref=f3e141] [cursor=pointer]:
+        - /url: https://www.opencart.com/?utm_source=opencart_install&utm_medium=footer_link&utm_campaign=opencart_install
+      - text: "|"
+      - link "Documentation" [ref=f3e142] [cursor=pointer]:
+        - /url: http://docs.opencart.com/?utm_source=opencart_install&utm_medium=footer_link&utm_campaign=opencart_install
+      - text: "|"
+      - link "Support Forums" [ref=f3e143] [cursor=pointer]:
+        - /url: https://forum.opencart.com/?utm_source=opencart_install&utm_medium=footer_link&utm_campaign=opencart_install
+      - link "OpenCart" [ref=f3e144] [cursor=pointer]:
+        - /url: https://www.opencart.com
+      - text: © 2009-2026 All Rights Reserved.
