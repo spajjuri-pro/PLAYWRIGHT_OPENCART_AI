@@ -1,7 +1,7 @@
 /**
  * Test Case: Valid Login flow
  *
- * Tags: @master @sanity
+ * Tags: @master @sanity @web
  *
  * Steps:
  * 1) Navigate to My Account > Login
@@ -13,7 +13,7 @@
 import { test, expect } from '../../fixtures/pageFixtures';
 import { Helper } from '../../utils/helper';
 
-test('Valid login test @master @sanity', async ({ homePage, loginPage, myAccountPage }) => {
+test('Valid login test @master @sanity @web', async ({ homePage, loginPage, myAccountPage }) => {
     const { email, password } = Helper.getLoginDetails();
 
     await test.step('1) Navigate to the login page', async () => {

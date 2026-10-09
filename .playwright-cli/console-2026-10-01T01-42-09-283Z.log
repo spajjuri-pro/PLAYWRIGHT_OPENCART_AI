@@ -1,5 +1,0 @@
-[     313ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/favicon.ico:0
-[   31420ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:8080/opencart/upload/install/index.php?route=install/step_3&language=en-gb:0
-[   46903ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost/opencart-website/public_html/application/view/stylesheet/install.css:0
-[   46906ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost/opencart-website/public_html/application/view/javascript/fontawesome/css/font-awesome.min.css:0
-[   46925ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/cdn-cgi/challenge-platform/scripts/jsd/main.js:0

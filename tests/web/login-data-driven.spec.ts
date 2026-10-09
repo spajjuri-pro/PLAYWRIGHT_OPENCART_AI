@@ -1,7 +1,7 @@
 /**
  * Test Case: Login Flow (Data Driven using external file)
  *
- * Tags: @master @datadriven
+ * Tags: @master @datadriven @web
  *
  * Steps:
  * 1) Load login rows from testdata/opencart_logindata.json (one test per row)
@@ -28,7 +28,7 @@ loginRows.forEach((row, index) => {
     const email = (row.email ?? '').trim();
     const password = (row.password ?? '').trim();
 
-    test(`${testName} #${index + 1} [${row.expected}] @master @datadriven`, async ({ homePage, loginPage, myAccountPage }) => {
+    test(`${testName} #${index + 1} [${row.expected}] @master @datadriven @web`, async ({ homePage, loginPage, myAccountPage }) => {
         await test.step('1) Navigate to the login page', async () => {
             await homePage.clickMyAccount();
             await homePage.clickLogin();

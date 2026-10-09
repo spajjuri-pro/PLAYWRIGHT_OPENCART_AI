@@ -1,7 +1,7 @@
 /**
  * Test Case: Logout flow
  *
- * Tags: @master @sanity
+ * Tags: @master @sanity @web
  *
  * Steps:
  * 1) Login using valid customer credentials
@@ -13,7 +13,7 @@
 import { test, expect } from '../../fixtures/pageFixtures';
 import { Helper } from '../../utils/helper';
 
-test('Logout test @master @sanity', async ({ homePage, loginPage, myAccountPage, logoutPage }) => {
+test('Logout test @master @sanity @web', async ({ homePage, loginPage, myAccountPage, logoutPage }) => {
     const { email, password } = Helper.getLoginDetails();
 
     await test.step('1) Login using valid customer credentials', async () => {

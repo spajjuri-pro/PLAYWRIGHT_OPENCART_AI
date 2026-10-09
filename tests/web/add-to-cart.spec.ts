@@ -1,7 +1,7 @@
 /**
  * Test Case: Add Product to Cart
  *
- * Tags: @master @sanity
+ * Tags: @master @sanity @web
  *
  * Steps:
  * 1) Search for a known product and open its details page
@@ -14,7 +14,7 @@
 import { test, expect } from '../../fixtures/pageFixtures';
 import { Helper } from '../../utils/helper';
 
-test('Add product to cart test @master @sanity', async ({ homePage, searchResultsPage, productPage, cartPage }) => {
+test('Add product to cart test @master @sanity @web', async ({ homePage, searchResultsPage, productPage, cartPage }) => {
     const { name, quantity } = Helper.getProductDetails();
 
     await test.step('1) Search for the product and open its details page', async () => {

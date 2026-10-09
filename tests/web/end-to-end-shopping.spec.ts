@@ -1,7 +1,7 @@
 /**
  * Test Case: End-to-End Shopping Flow
  *
- * Tags: @master @regression @end-to-end
+ * Tags: @master @regression @end-to-end @web
  *
  * Steps:
  * 1) Register a new customer with unique data
@@ -16,7 +16,7 @@ import { test, expect } from '../../fixtures/pageFixtures';
 import { RandomDataUtil } from '../../utils/dataGenerator';
 import { Helper } from '../../utils/helper';
 
-test('End-to-end shopping flow test @master @regression @end-to-end', async ({
+test('End-to-end shopping flow test @master @regression @end-to-end @web', async ({
     homePage,
     registerPage,
     accountSuccessPage,

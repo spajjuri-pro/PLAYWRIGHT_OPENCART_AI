@@ -1,7 +1,7 @@
 /**
  * Test Case: Invalid Login flow
  *
- * Tags: @master @sanity
+ * Tags: @master @sanity @web
  *
  * Steps:
  * 1) Navigate to My Account > Login
@@ -13,7 +13,7 @@
 import { test, expect } from '../../fixtures/pageFixtures';
 import { RandomDataUtil } from '../../utils/dataGenerator';
 
-test('Invalid login test @master @sanity', async ({ homePage, loginPage }) => {
+test('Invalid login test @master @sanity @web', async ({ homePage, loginPage }) => {
     const invalidEmail = RandomDataUtil.getEmail();
     const invalidPassword = RandomDataUtil.getPassword();
 

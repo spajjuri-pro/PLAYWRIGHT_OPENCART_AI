@@ -1,7 +1,7 @@
 /**
  * Test Case: User Registration flow
  *
- * Tags: @master @sanity
+ * Tags: @master @sanity @web
  *
  * Steps:
  * 1) Navigate to My Account > Register
@@ -14,7 +14,7 @@
 import { test, expect } from '../../fixtures/pageFixtures';
 import { RandomDataUtil } from '../../utils/dataGenerator';
 
-test('User registration test @master @sanity', async ({ homePage, registerPage, accountSuccessPage, myAccountPage }) => {
+test('User registration test @master @sanity @web', async ({ homePage, registerPage, accountSuccessPage, myAccountPage }) => {
     const firstName = RandomDataUtil.getFirstName();
     const lastName = RandomDataUtil.getLastName();
     const email = RandomDataUtil.getEmail();

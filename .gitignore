@@ -1,11 +1,38 @@
 
 # Playwright
+# Dependencies
 node_modules/
+
+#Environments and secrets
 .env
+
+# Playwright test artifacts
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
-/allure-report/
+
+
+# Generated reports and run artifacts
+/reports/
+/custom-report/
 /allure-results/
+/allure-report/
+
+# Tool/IDE config (local caches, not project files)
+.claude/
+.commandcode/
+.playwright-cli/
+.playwright-mcp/
+.playwright/
+.vscode/
+
+# Others
+/prompts/
+/docs/
+
+# OS / editor / local agent files
+.DS_Store
+.commandcode/
+.agent.md

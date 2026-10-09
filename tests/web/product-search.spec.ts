@@ -1,7 +1,7 @@
 /**
  * Test Case: Product Search flow
  *
- * Tags: @master @sanity
+ * Tags: @master @sanity @web
  *
  * Steps:
  * 1) Search for a known product from the homepage
@@ -13,7 +13,7 @@
 import { test, expect } from '../../fixtures/pageFixtures';
 import { Helper } from '../../utils/helper';
 
-test('Product search test @master @sanity', async ({ homePage, searchResultsPage }) => {
+test('Product search test @master @sanity @web', async ({ homePage, searchResultsPage }) => {
     const { name } = Helper.getProductDetails();
 
     await test.step('1) Search for a known product', async () => {
