@@ -556,3 +556,25 @@ git remote add origin https://github.com/USERNAME/REPOSITORY.git
 git push -u origin master
 
 git pull
+### PROMPT — Copy/Paste This to Your AI Coding Agent
+
+```text
+Add, commit, and push the latest project changes to the configured GitHub repository.
+
+Follow these steps:
+
+1. Review the current Git status and identify all project changes.
+2. Ensure appropriate files are staged. Do not commit secrets, `.env` files, generated files, dependencies, or other files excluded by `.gitignore`.
+3. Stage the required changes.
+4. Create a clear and descriptive commit message based on the actual changes.
+5. Commit the changes to the current branch.
+6. Push the commit to the configured GitHub remote repository.
+7. If there are no changes to commit, do not create an empty commit. Report that the working tree is clean.
+8. If the push fails, report the exact reason and do not claim that the push was successful.
+
+After completion, report:
+Commit message,Branch,Push result (Successful or Failed or No changes to push)
+
+```
+
+---
