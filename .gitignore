@@ -29,7 +29,6 @@ node_modules/
 .vscode/
 
 # Others
-/prompts/
 /docs/
 
 # OS / editor / local agent files
